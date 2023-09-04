@@ -6,6 +6,9 @@
   min-height: 100vh;
 }
 
+/*
+ * TODO change the grid
+*/
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
