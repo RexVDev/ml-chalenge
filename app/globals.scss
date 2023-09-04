@@ -1,7 +1,7 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --stale: #F5F5F5;
+  --grey: #F5F5F5;
 }
 
 
@@ -18,5 +18,5 @@ body {
 }
 
 body {
-  background: var(--stale);
+  background: var(--grey);
 }
