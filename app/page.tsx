@@ -1,10 +1,14 @@
+import { Nav } from './components/nav';
+import { Home as HomeContainer } from './containers/home';
+
 import styles from './page.module.scss';
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Nav />
       <div>
-        <h5>Mercado Deployment</h5>
+        <HomeContainer />
       </div>
     </main>
   )

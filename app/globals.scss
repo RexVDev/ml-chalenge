@@ -1,7 +1,12 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
+  --yellow: #FFE600;
+  --stale: #333333;
   --grey: #F5F5F5;
+  --grey-hard: #999999;
+  --grey-light: #EEEEEE;
+  --white: #FFFFFF;
 }
 
 
@@ -9,6 +14,12 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  -webkit-appearance: none;
+
+  input {
+    border: none;
+    outline: none;
+  }
 }
 
 html,
