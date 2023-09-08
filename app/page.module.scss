@@ -1,19 +1,24 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   min-height: 100vh;
+
+  &__contanier {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 20px;
+  }
 }
 
 /*
  * TODO change the grid
 */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
-  max-width: 100%;
-  width: var(--max-width);
-}
+// .grid {
+//   display: grid;
+//   grid-template-columns: repeat(4, minmax(25%, auto));
+//   max-width: 100%;
+//   width: var(--max-width);
+// }
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {}

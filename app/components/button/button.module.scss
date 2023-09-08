@@ -1,0 +1,52 @@
+.button {
+  border: none;
+  border-radius: 3px;
+  background: var(--grey-light);
+  cursor: pointer;
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-primary {
+    background: var(--grey-light);
+    color: var(--black)
+  }
+
+  &-secondary {
+    background: var(--blue);
+    color: var(--white)
+  }
+
+  &-dark {
+    background: var(--black);
+    color: var(--white)
+  }
+
+  &-ghost {
+    background: none;
+  }
+
+  &--default {
+    width: 330px;
+  }
+
+  &--small {
+    width: 35px;
+  }
+
+  &--medium {
+    width: 250px;
+    height: 40px;
+    font-size: 22px;
+  }
+
+  &--large {
+    width: 650px;
+  }
+  &--fluid {
+    width: 100%;
+  }
+}

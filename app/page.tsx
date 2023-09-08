@@ -1,5 +1,7 @@
 import { Nav } from './components/nav';
 import { Home as HomeContainer } from './containers/home';
+import { Details } from './containers/details';
+import { ResultsList } from './containers/results-list';
 
 import styles from './page.module.scss';
 
@@ -7,8 +9,14 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Nav />
-      <div>
+      <div className={styles['main__contanier']}>
+        <p>breadcrumb</p>
         <HomeContainer />
+        <Details />
+        <ResultsList />
+        <div className={styles['main__contanier--child']}>
+          child
+        </div>
       </div>
     </main>
   )

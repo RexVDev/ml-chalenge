@@ -1,0 +1,47 @@
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border-radius: 20px;
+
+  &__title {
+    display: flex;
+    flex: 1 1 0%;
+    justify-items: start;
+    font-weight: 600;
+    padding: 0;
+    margin-bottom: 12px;
+  }
+
+  &-primary {
+    background: var(--white);
+  }
+
+  &-secondary {
+    background: var(--grey-light);
+  }
+
+  &-ghost {
+    background: none;
+  }
+
+  &--padded {
+    padding: 6px;
+  }
+
+  &--padded-large {
+    padding: 12px;
+  }
+
+  &--padded-xlarge {
+    padding: 24px;
+  }
+
+  &--border-small {
+    border-radius: 5px;
+  }
+
+  &--width-fluid {
+    width: 100%;
+  }
+}

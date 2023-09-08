@@ -1,12 +1,14 @@
 :root {
-  --max-width: 1100px;
   --border-radius: 12px;
   --yellow: #FFE600;
   --stale: #333333;
+  --stale-ligth: #666666;
   --grey: #F5F5F5;
   --grey-hard: #999999;
   --grey-light: #EEEEEE;
   --white: #FFFFFF;
+  --blue: #3483FA;
+  --black: #000;
 }
 
 
@@ -24,7 +26,6 @@
 
 html,
 body {
-  max-width: 100vw;
   overflow-x: hidden;
 }
 
