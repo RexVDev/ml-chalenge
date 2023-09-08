@@ -72,7 +72,7 @@ function ButtonComponent(
     >
       {isLoading ? (<ButtonLoader />) : (
         <div className={styles['button__content']}>
-          <span className={styles['button__icon']}>{icon}</span>
+          {icon && <span className={styles['button__icon']}>{icon}</span>}
           {children}
         </div>
       )}

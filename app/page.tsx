@@ -13,10 +13,8 @@ export default function Home() {
         <p>breadcrumb</p>
         <HomeContainer />
         <Details />
+        <div className={styles['main__temp']}/>
         <ResultsList />
-        <div className={styles['main__contanier--child']}>
-          child
-        </div>
       </div>
     </main>
   )
